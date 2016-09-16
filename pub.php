@@ -12,11 +12,13 @@ if($dep == '')
 {
   $dep = 0;
 }
+
 if($uid == '')
 {
   $uid = 0;
 }
 //$uid = 1;
+
 ?>
 <SCRIPT language=javascript>
 function CheckPost()
