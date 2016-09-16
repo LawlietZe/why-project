@@ -12,6 +12,13 @@ if($dep == '')
 {
   $dep = 0;
 }
+
+if($uid == '')
+{
+  $uid = 0;
+}
+//$uid = 1;
+
 ?>
 <SCRIPT language=javascript>
 function CheckPost()
@@ -28,7 +35,7 @@ function CheckPost()
     <input type="hidden" name="uid" value="<?php echo $uid;?>">
     <input type="hidden" name="dep" value="<?php echo $dep;?>">
     <input type="hidden" name="fid" value="<?php echo $fid;?>">
-    这是回复<?php echo $fid;?>的内容(少于200字)：<br/>
+    这是回复<?php echo $uid;?>的内容(少于200字)：<br/>
     <textarea name="content" cols="50" rows="4"></textarea><br/>
     <input type="submit" name="submit" value="提交留言"/>
     <button type="button" name="button"><a href="list.php">取消</a></button>

@@ -43,7 +43,7 @@
           if($rs){
             $_SESSION['username']=$name;
             $_SESSION['id']=$rs['id'];
-            echo 'ID编号：'.$rs['id']."<br/>用户:<h3>".$name,'</h3> 欢迎你！进入用户管理系统<br />';
+            echo 'ID编号：'.$rs['id']."<br/>用户:<b>".$name,'</b> 欢迎你！进入用户管理系统<br />';
             echo '点击此处 <a href="modifyPre.php">修改</a> 您的信息<br />';
             echo '点击此处 <a href="index.html">主页</a> 回到登录页面<br />';
             echo '点击此处 <a href="list.php">留言板</a> 进入留言板<br />';

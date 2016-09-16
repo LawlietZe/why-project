@@ -45,7 +45,7 @@ function tree($id, $dep)
       </a>
         <?php
         session_start();
-        echo '欢迎你,'."<b>$_SESSION[username]</b><b>$_SESSION[id]</b>";
+        echo '欢迎你,'."<b>$_SESSION[username]</b>";
         ?>
     </td>
   </tr>
